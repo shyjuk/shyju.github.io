@@ -1,6 +1,6 @@
 ---
 title: OpenVz to Proxmox LXC
-date: 2024-02-07
+date: 2025-02-07
 categories: [Linux, Tips, Proxmox]
 tags: [linux,tips,commands,proxmox]     # TAG names should always be lowercase
 ---
