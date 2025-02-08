@@ -123,7 +123,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://shyju.in"
+#baseurl: "https://shyju.in"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
