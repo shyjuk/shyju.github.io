@@ -19,6 +19,8 @@ If you are using Azure make sure the SSO certificate Common Name is "Microsoft A
 <img width="893" height="612" alt="image" src="https://github.com/user-attachments/assets/867feb91-3223-4881-85df-4383fa17a835" />
 
 
+
+
 1. Download the latest Base64 Certificate from your Identity Provider.
 2. Log into Docusign Admin -> Identity Providers.
 3. Edit your active IdP in Docusign and upload the new certificate.
