@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>du - Lighthouse</title>
+    <script charset='UTF-8'>
+        window['adrum-start-time'] = new Date().getTime();
+        (function(config){
+            config.appKey = 'EUM-AAB-AYC';
+            config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+            config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+            config.beaconUrlHttp = 'http://eum.du.ae:80';
+            config.beaconUrlHttps = 'https://eum.du.ae:443';
+            config.xd = {enable : false};
+        })(window['adrum-config'] || (window['adrum-config'] = {}));
+        </script>
+        <script src='//cdn.appdynamics.com/adrum/adrum-23.3.0.4265.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box-wrap">
+            <div class="box-wrap-inner">
+                <div class="box">
+                    <h1>Remember to browse safely.</h1>
+                    <p class="subheader">Looks like you’re trying to access a website not available in the UAE.</p>
+                    <p class="subtitle1">
+                        The Internet is a powerful medium for communication, information, and sharing and serving our daily needs. However, the site you are trying to access contains content that is prohibited under the ‘Internet Access Management Regulatory Policy’ of the Telecommunications Regulatory Authority of the United Arab Emirates.
+                    </p>
+                    <p class="subtitle2">
+                        If you believe the website you are trying to access does not contain any such content, please <a href="https://www.du.ae/surfsafely?ctype=unblock">click here</a>.
+                    </p>
+                </div>
+                <div class="box icon">
+                    <svg class="svg-icon" viewBox="0 0 400 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M358.333 0.706711H41.6667C18.6933 0.706711 0 19.4 0 42.3734V303.627C0 326.6 18.6933 345.293 41.6667 345.293H358.333C381.307 345.293 400 326.6 400 303.627V42.3734C400 19.4 381.307 0.706711 358.333 0.706711ZM20 42.3734C20 30.4267 29.72 20.7067 41.6667 20.7067H358.333C370.28 20.7067 380 30.4267 380 42.3734V71.96H20V42.3734ZM380 303.627C380 315.573 370.28 325.293 358.333 325.293H41.6667C29.72 325.293 20 315.573 20 303.627V91.96H380V303.627ZM121.733 39.2667C122.667 38.3334 123.733 37.6667 124.933 37.1334C128.667 35.5334 133.067 36.4667 135.867 39.2667C137.733 41.1201 138.8 43.6667 138.8 46.3334C138.8 47.6667 138.533 49.0001 138 50.2001C137.467 51.4001 136.8 52.4667 135.867 53.4001C134 55.2667 131.333 56.3334 128.8 56.3334C127.467 56.3334 126.133 56.0534 124.933 55.5201C123.733 54.9867 122.667 54.3201 121.733 53.4001C120.8 52.4667 120 51.4001 119.6 50.2001C119.067 49.0001 118.8 47.6667 118.8 46.3334C118.8 43.6667 119.867 41.1334 121.733 39.2667ZM42.5334 39.2668C40.6667 41.1335 39.6 43.6668 39.6 46.3335C39.6 47.6668 39.8667 49.0001 40.4 50.2001C40.8 51.4001 41.6 52.4668 42.5334 53.4001C44.4 55.2668 47.0667 56.3335 49.6 56.3335C52.1334 56.3335 54.8 55.2668 56.6667 53.4001C57.6 52.4668 58.2667 51.4001 58.8 50.2001C59.3333 49.0001 59.6 47.6668 59.6 46.3335C59.6 43.6668 58.5334 41.1201 56.6667 39.2668C52.9333 35.5335 46.2667 35.5335 42.5334 39.2668ZM82.1334 39.2668C80.2667 41.1335 79.2 43.6668 79.2 46.3335C79.2 47.6668 79.4667 49.0001 80 50.2001C80.4 51.4001 81.2 52.4668 82.1334 53.4001C84 55.2668 86.5334 56.3335 89.2 56.3335C91.7334 56.3335 94.4 55.2668 96.2667 53.4001C97.2 52.4668 97.8667 51.4001 98.4 50.2001C98.9334 49.0001 99.2 47.6668 99.2 46.3335C99.2 43.6668 98.1334 41.1201 96.2667 39.2668C92.5334 35.5335 85.7334 35.5335 82.1334 39.2668ZM279.787 295.32H120.213H120.187C112.813 295.32 106.24 291.48 102.613 285.067C98.9868 278.653 99.0801 271.04 102.88 264.72L182.667 131.747C186.347 125.6 192.827 121.947 199.987 121.947C207.147 121.947 213.627 125.6 217.307 131.747L297.093 264.72C300.893 271.027 300.987 278.64 297.36 285.067C293.733 291.493 287.16 295.32 279.787 295.32ZM200.18 142.051L279.893 275.307H279.8L120.067 275.013L200.18 142.051ZM200 179.2C194.48 179.2 190 183.68 190 189.2V226.693C190 232.213 194.48 236.693 200 236.693C205.52 236.693 210 232.213 210 226.693V189.2C210 183.68 205.52 179.2 200 179.2ZM190 249.133C190 246.587 191.067 243.92 192.933 242.187C196.667 238.467 203.333 238.467 207.067 242.187C208.933 243.92 210 246.6 210 249.133C210 251.8 208.933 254.453 207.067 256.333C206.133 257.12 205.067 257.933 203.867 258.467C202.533 259 201.333 259.267 200 259.267C198.667 259.267 197.467 259 196.133 258.467C194.933 257.933 193.867 257.133 192.933 256.333C191.067 254.453 190 251.8 190 249.133Z" fill="url(#paint0_linear_2_2)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_2_2" x1="17.2909" y1="243.078" x2="362.845" y2="64.4868" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#753BBD"/>
+                        <stop offset="0.6" stop-color="#00A9CE"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                    <h1 class="ar">.يهمنا أن تتصفح بأمان</h1>
+                    <h1>Remember to browse safely.</h1>
+                </div>
+                <div class="box ar" dir="rtl">
+                    <h1>يهمنا أن تتصفح بأمان.</h1>
+                    <p class="subheader">يبدو أنك تحاول زيارة موقع إلكتروني غير متوفر في الإمارات العربية المتحدة.</p>
+                    <p class="subtitle1">
+                        تشكّل شبكة الإنترنت وسيلة قوية للتواصل، والحصول على المعلومات، والمشاركة، وتلبية متطلباتنا اليومية بشكل عام. ولكنّ الموقع الذي تحاول زيارته يشمل محتوى محظور بموجب "السياسة التنظيمية لإدارة النفاذ للإنترنت" الخاصة بهيئة تنظيم الاتصالات في دولة الإمارات العربية المتحدة.
+                    </p>
+                    <p class="subtitle2">
+                        إذا كنت تعتقد أنّ الموقع الإلكتروني الذي تحاول زيارته لا يشمل محتوى من هذا النوع، يرجى <a href="https://www.du.ae/ar/surfsafely?ctype=unblock">الضغط هنا</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    /* General */
+    html, body{
+        height: 100%;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        overflow: hidden;
+    }
+    @font-face {
+        font-family: 'ProximaNovaReg';
+        src: url('fonts/ProximaNova-Regular.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'ProximaNovaBold';
+        src: url('fonts/ProximaNova-Bold.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'dubaiFont';
+        src: url('fonts/DubaiW23-Regular.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'dubaiFontBold';
+        src: url('fonts/DubaiW23-Bold.woff') format('woff');
+    }
+    /* Desktop */
+    .container{
+        height: 100%;
+        display: flex;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .box-wrap{
+        padding: 5px;
+        height: 80%;
+        width: 100%;
+        margin: 0 20px;
+        background: linear-gradient(66deg, #753BBD 12.13%, #00A9CE 57.57%);
+        border-radius: 12px;
+    }
+    .container .box-wrap .box-wrap-inner{
+        height: 100%;
+        background: white;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .subheader{
+        font-family: 'ProximaNovaBold';
+    }
+    h1 {
+        background:linear-gradient(63deg, #C724B1 12.83%, #753BBD 35.13%, #00A9CE 87.17%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 27px;
+        font-family: 'ProximaNovaBold';
+    }
+    p{
+        /* text-align: justify; */
+    }
+    .box{
+        width: 33%;
+        padding: 0 25px;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box.icon .svg-icon{
+        margin: auto;
+    }
+    .box .subheader{
+        min-height: 40px;
+    }
+    .box .subtitle1{
+        min-height: 140px;
+        font-family: 'ProximaNovaReg';
+    }
+    .box .subtitle2{
+        font-family: 'ProximaNovaReg';
+    }
+    .box.icon h1{
+        display: none;
+    }
+    a{
+        color:#B739B7;
+    }
+    /* Tablet */
+    @media only screen  and (max-width:800px) {
+        html, body{
+            overflow: auto;
+            height: auto;
+            font-size: 17px;
+        }
+        .container .box-wrap{
+            margin: 0 20px;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background: none;
+        }
+        .container .box-wrap .box-wrap-inner{
+            flex-direction: column;
+        }
+        .box:nth-child(0){
+            order: 0;
+        }
+        .box:nth-child(1){
+            order: 1;
+        }
+        .box:nth-child(2){
+            order: 0;
+        }
+        .box{
+            width: 100%;
+            padding: 20px 20px;
+            border-bottom: 2px solid #eee;
+            min-height: 0;
+        }
+        .box h1{
+            display: none;
+        }
+        .box.icon{
+            width: 100%;
+        }
+        .svg-icon{
+            width: 300px;
+        }
+        .box.icon h1{
+            display: block;
+            text-align: center;
+        }
+        .box .subtitle1{
+            min-height: 0;
+        }
+    }
+    .ar .subheader{
+        font-family: 'dubaiFont';
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .ar .subtitle1, .ar .subtitle2{
+        font-family: 'dubaiFont';
+        font-size: 14px;
+
+    }
+    .ar h1, h1.ar{
+        background:linear-gradient(247deg, #C724B1 12.83%, #753BBD 35.13%, #00A9CE 87.17%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 27px;
+        font-family: 'dubaiFontBold';    }
+</style>
