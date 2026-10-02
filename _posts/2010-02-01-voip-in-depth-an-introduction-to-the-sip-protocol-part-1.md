@@ -12,7 +12,7 @@ tags:
 
 ## VoIP in-depth: An introduction to the SIP protocol, Part 1
 
-By [Gilad Shaham](http://arstechnica.com/author/ohrmazd/) | Last updated January 24, 2010 11:28 PM ![](/images/sip-part1-listing.jpg) [Flickr: smileham](http://www.flickr.com/photos/smileham/2852623791/)
+By [Gilad Shaham](http://arstechnica.com/author/ohrmazd/) | Last updated January 24, 2010 11:28 PM. The original article image is unavailable. [Flickr: smileham](http://www.flickr.com/photos/smileham/2852623791/)
 
 In our [last VoIP installment](http://arstechnica.com/business/news/2009/12/wired-for-sound-how-sip-won-the-voip-protocol-wars.ars), we looked at the main reasons why SIP has become a widely adopted protocol, but we left details of the protocol's inner workings fairly vague. This article will drill down into the way the Session Initiation Protocol (SIP) works, and it should serve as a good starting point for really learning SIP. If you haven't already done so, you are encouraged to read the previous article, although it's not a prerequisite. This introduction also covers the latest SIP extensions and changes, so it gives a complete view of the protocol's current state, rather than just the basic, underlying RFC.
 
@@ -85,7 +85,7 @@ It's because of this NAT issue that [RFC 5626](http://tools.ietf.org/html/rfc562
 
 The SIP RFC divides the architecture into layers. We actually went through two of the layers in the discussion above: the first was the syntax and encoding layer that defines the message structure, and the second was the transport layer. Now it's time to inspect the contents of the SIP message by taking a look at the transaction layer.
 
-![SIPLayers.png](/images/SIPLayers.png) The SIP layers
+**SIP layers diagram:** image unavailable in the migrated files.
 
 Every SIP message is associated with a single transaction. Similar to HTTP, messages are either requests or responses, but unlike HTTP, matching responses to requests is not simple. HTTP uses TCP as its transport, so you can match a response based on the order of the requests. But a SIP transaction can have more than a single response, and, in some cases, more than one request. When a SIP device sends a request, it acts as a user agent client (UAC). The recipient of the request, the one that sends the response, acts as a user agent server (UAS). The layer above the transaction layer is named "transaction user" or TU. Let's look at a SIP request that a UAC can initiate:
 
@@ -118,7 +118,7 @@ Ultimately, SIP has built each of its layers to be as decoupled as possible from
 
 The protocol distinguishes between 4 types of transactions, so it has 4 different types of state machines: client INVITE, client non-INVITE, server INVITE and server non-INVITE. We haven't mentioned the INVITE method yet, and for a good reason. INVITE is a method used to generate a call, and these lower layers do not maintain the call state. However, this transaction is different because calls have a 3-way handshake that affects the state-machine. Let's start with a diagram of the client non-INVITE transaction state-machine:
 
-![Non-INVITE\_Client\_Transaction.png](/images/Non-INVITE_Client_Transaction.png) The Non-INVITE client transaction
+**Non-INVITE client transaction diagram:** image unavailable in the migrated files.
 
 Most of the timers are for retransmissions in UDP, and they are disabled in TCP. An additional timeout timer exists in case no response is received. Transactions normally exist for 32 seconds until they time out. The equivalent server state-machine is quite similar; it receives a request, sends it to the TU, sends the response back, and handles retransmissions if required. It should be noted that some of the non-INVITE transaction definitions were updated by [RFC 4320](http://tools.ietf.org/html/rfc4320).
 
@@ -126,7 +126,7 @@ Let's cover the 3-way handshake. The UAC sending the INVITE waits for a response
 
 When a client receives a successful (2xx) response type, it means a call was created and it will send the ACK in a new transaction. A failure response (300-699) means the ACK will be on the same transaction. The reason for this lies in the behavior of the upper layers. We will see that proxies are not aware of a call state, and those that are stateful maintain just the transaction state. There are scenarios in which a proxy would need to ACK a failed response, but it cannot ACK a successful response because that would require understanding call-related information. The INIVITE client state machine is as follows:
 
-![INVITE\_Client\_Transaction.png](/images/INVITE_Client_Transaction.png) The INVITE client transaction
+**INVITE client transaction diagram:** image unavailable in the migrated files.
 
 ## User location
 
@@ -208,13 +208,13 @@ Finally, proxies send out a 100 (Trying) provisional response when they receive 
 
 Let's look at an example to wrap up this discussion (non-essential details elided, including the SIP version in the first line of the request and some headers that will be discussed when we cover calls):
 
-![SummaryExample1.png](/images/SummaryExample1.png)
+**Proxy example, step 1:** diagram image unavailable in the migrated files.
 
 This message is sent from Ars Technica's network and reaches the [arstechnica.com](http://arstechnica.com) SIP proxy. The proxy sends out the message to the [voxisoft.com](http://voxisoft.com) SIP proxy and returns a 100 response. Voxisoft's proxy has two registrations and forks the request to two devices (while also sending out a 100 response). Notice that all new requests have a new Via header with a new branch parameter. Also, note that the second message is using TCP as a transport. This is a valid scenario, as we previously discussed, since both transactions have different state machine and one of them may discover a different transport when performing a NAPTR query.
 
 At this point, one device might answer with, for example, 486 (Busy), but the proxy does not forward it because it has another forked message pending; so it just sends an ACK. The ACK has the same branch value since it's the same transaction. ACK is sent only for the INVITE case; if this were a different method then ACK wouldn't be used. The second device sends a 200 OK and this message is sent all the way back to the initiating client. The following illustration shows this process in action:
 
-![SummaryExample2.png](/images/SummaryExample2.png)
+**Proxy example, step 2:** diagram image unavailable in the migrated files.
 
 Finally, the client on the left side sends out an ACK for the 200 OK. This ACK is a new transaction and therefore has a new branch value. The proxies forward the request to the destination, again adding a Via header for each hop. This time ACK does not fork; we will see this mechanism in the next article.
 
