@@ -43,7 +43,7 @@ openssl pkcs12 -export -out DigiCertBackup.pfx -inkey shyju-pc.key -in shyju-pc.
 
 If you want to export the certificate to another Apache server, copy the SSL certificate, private key, and any intermediate certificates to the second server and configure `httpd.conf`.
 
-**_Network Solutions gives [some instructions](http://customersupport.networksolutions.com/article.php?id=891) on their website that are outdated so it left me guessing on the correct order to create the SSLCertificateChainFile. Here is the correct order:_**
+**_Network Solutions gives [some instructions](https://customersupport.networksolutions.com/article.php?id=891) on their website that are outdated so it left me guessing on the correct order to create the SSLCertificateChainFile. Here is the correct order:_**
 
 ```text
 UTNAddTrustServer_CA.crt

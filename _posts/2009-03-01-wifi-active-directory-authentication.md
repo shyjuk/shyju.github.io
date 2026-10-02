@@ -198,7 +198,7 @@ Type "Domain Users" and "Domain Computers and separate them with a semicolon. (*
 
 Note that "Domain Computers" is used to authenticate your computer for "machine authentication" which connects your wireless PC before the user even logs in. This is a very useful and unique benefit of the Windows Wireless Client since it emulates the full wired experience for wireless users.
 
-If "machine authentication" isn't implemented, group policies and login scripts won't fire off. Furthermore, only cached users can login to the wireless computer, because users who have never signed on to that PC can't authenticate with the domain. For this reason alone is enough for me to always recommend using the Windows Wireless client for Windows users not to mention the [auto-deployment capability](http://articles.techrepublic.com.com/5100-1035-6148576.html).
+If "machine authentication" isn't implemented, group policies and login scripts won't fire off. Furthermore, only cached users can login to the wireless computer, because users who have never signed on to that PC can't authenticate with the domain. For this reason alone is enough for me to always recommend using the Windows Wireless client for Windows users not to mention the [auto-deployment capability](https://articles.techrepublic.com.com/5100-1035-6148576.html).
 
 Now you see the screen shown in **Figure III** with a summary of the user and computer groups you're allowing access. Note that this is an OR operator between these two group names. Either one true registers a success. Hit "Next".
 
@@ -214,14 +214,14 @@ Choose "Protected EAP (PEAP)" authentication. Then hit "Configure". (**Figure JJ
 |  |
 |   Authentication    |
 
-Before you get to this page, you must either have a valid Machine Certificate from a Certificate Authority or you have already [self-signed](http://articles.techrepublic.com.com/5100-1035-6148560.html) one yourself. Leave the rest of the settings like you see in **Figure KKK** and click OK.
+Before you get to this page, you must either have a valid Machine Certificate from a Certificate Authority or you have already [self-signed](https://articles.techrepublic.com.com/5100-1035-6148560.html) one yourself. Leave the rest of the settings like you see in **Figure KKK** and click OK.
 
 |   **![](/images/wifi-ias-doc-m6edbc7d5.png)Figure KKK**    |
 | --- |
 |  |
 |   PEAP Properties    |
 
-Download & install [Microsoft IIS Resource Kit](http://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&DisplayLang=en) and create new self signed certificate if it is not there.
+Download & install [Microsoft IIS Resource Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&DisplayLang=en) and create new self signed certificate if it is not there.
 
 Finalize the remaining dialog box and you're finished making a new wireless authentication profile. Now we'll move on to fine tuning the configuration.
 

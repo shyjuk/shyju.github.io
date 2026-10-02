@@ -64,4 +64,4 @@ Click browser's back button and click continue to finish the installation.
 
 ![](/images/pandion.png "Pandion")
 
-For testing install XMPP client [Pandion](http://pandion.im/download) and login with Active Directory username @ Openfire Server name and active directory password. See the screenshot.
+For testing install XMPP client [Pandion](https://pandion.im/download) and login with Active Directory username @ Openfire Server name and active directory password. See the screenshot.

@@ -30,7 +30,7 @@ The OracleVM does  not have a built in utility to increase the hard disk size.
 
 [![](/images/2.png "2")](/images/2.png)
 
-5\. Boot the VM and install any disk cloning tool which works with your OS in VM.  I used demo version of  [Migrate Easy](http://www.acronis.com/homecomputing/download/link/?MigrateEasy7.0_d_en.exe) from Acronis which worked just fine for me to clone my Windows 2003 VM HDD. If you does not have enough space to install the software add a new hdd to VM  and install the software on that. If you have little space on first hdd change the  TEMP settings of existing VM from the "Environment Variables" settings. See the screen shot.
+5\. Boot the VM and install any disk cloning tool which works with your OS in VM.  I used demo version of  [Migrate Easy](https://www.acronis.com/homecomputing/download/link/?MigrateEasy7.0_d_en.exe) from Acronis which worked just fine for me to clone my Windows 2003 VM HDD. If you does not have enough space to install the software add a new hdd to VM  and install the software on that. If you have little space on first hdd change the  TEMP settings of existing VM from the "Environment Variables" settings. See the screen shot.
 
 [![](/images/3.png "3")](/images/3.png)
 

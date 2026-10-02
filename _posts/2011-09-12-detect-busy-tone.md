@@ -29,7 +29,7 @@ tags:
 
 ### **Asterisk without "Disconnect Supervision"**
 
-It is very hard to configure an asterisk system if your telco is not providing  [Disconnect supervision](http://www.voip-info.org/wiki/view/Asterisk+Disconnect+Supervision) on your PSTN/Analog line. Even the developers of digium "Switchvox" could not solve the "great call hangup issue" on their great PBX  till now (12th Sep. 2011), because many telecom providers all over the world do not support  this method of call disconnection.
+It is very hard to configure an asterisk system if your telco is not providing  [Disconnect supervision](https://www.voip-info.org/wiki/view/Asterisk+Disconnect+Supervision) on your PSTN/Analog line. Even the developers of digium "Switchvox" could not solve the "great call hangup issue" on their great PBX  till now (12th Sep. 2011), because many telecom providers all over the world do not support  this method of call disconnection.
 
 So what happens if you are using asterisk and do not have disconnect supervision on your analog line. If you have not properly configured asterisk with busydetect=yes/callprogress=yes in dahdi/zapata configuration you  will end up  "always busy analog lines"  and you may have to restart the PBX  to receive a call/make call. As an example , I'm using asterisk and if somebody calling me,the call rings my phone via asterisk and  I'm not at my desk to attend the call, so the callee hangs up his phone. But the asterisk will keep ringing my phone because it will not detect the "call disconnect tone"  which is send by the telco when the callee hangup the call. So that PSTN/Analog line remains busy until you manually pick up  phone and disconnect or restart asterisk. This may happen always when caller/callee fails to hangup the call., ie call hang up from one end will not release the line for another call.
 
@@ -51,7 +51,7 @@ busycount=3
 
 ## **The Solution**
 
-##     One easy solution is get the appropriate busy tone/disconnect tone settings from your telco(you will never get it ;) ) or from [World PSTN Tone Database](http://www.3amsystems.com/wireline/tone-search.htm). If your telco tones are different than those they have given, then you may have to record the busy/call disconnect tone(Use [3CX Phone](http://www.3cx.com/VOIP/voip-phone.html), or [DAHDIBarge](http://www.voip-info.org/wiki/view/Asterisk+cmd+ZapBarge)). Then use [Audacity](http://audacity.sourceforge.net/download/windows)/[Wavesurfer](http://www.speech.kth.se/wavesurfer/index.html) to find the on/off cadence timing on the recorded call. Find the screenshots. **Audacity** [![](/images/disconnect-tone.png "disconnect-tone")](/images/disconnect-tone.png) 
+##     One easy solution is get the appropriate busy tone/disconnect tone settings from your telco(you will never get it ;) ) or from [World PSTN Tone Database](https://www.3amsystems.com/wireline/tone-search.htm). If your telco tones are different than those they have given, then you may have to record the busy/call disconnect tone(Use [3CX Phone](https://www.3cx.com/VOIP/voip-phone.html), or [DAHDIBarge](https://www.voip-info.org/wiki/view/Asterisk+cmd+ZapBarge)). Then use [Audacity](https://audacity.sourceforge.net/download/windows)/[Wavesurfer](https://www.speech.kth.se/wavesurfer/index.html) to find the on/off cadence timing on the recorded call. Find the screenshots. **Audacity** [![](/images/disconnect-tone.png "disconnect-tone")](/images/disconnect-tone.png) 
 
 Here the ON timing is around 325 millisecond and the OFF timing is also the same.
 
@@ -110,4 +110,4 @@ The main configuration files are /etc/asterisk/chan\_dahdi.conf &  /etc/asteris
 
 .. to be continued..
 
-Worth reading: [http://www.fredshack.com/docs/asterisk.html](http://www.fredshack.com/docs/asterisk.html)
+Worth reading: [https://www.fredshack.com/docs/asterisk.html](https://www.fredshack.com/docs/asterisk.html)

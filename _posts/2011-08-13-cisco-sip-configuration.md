@@ -25,9 +25,9 @@ tags:
 
 ### Cisco 7911G/7942/7945/7962 Phone with Asterisk
 
-Download the firmware ([7911](http://dl.dropbox.com/u/10036721/cmterm-7911_7906-sip.8-2-2SR4.zip) ,[7942](http://dl.dropbox.com/u/10036721/Cisco-7942-SIP.zip "7942"), [7945](http://dl.dropbox.com/u/10036721/Cisco-7945-SIP.zip) , [7962](http://dl.dropbox.com/u/10036721/Cisco-7962-SIP.zip)) and extract it.
+Download the firmware ([7911](https://dl.dropbox.com/u/10036721/cmterm-7911_7906-sip.8-2-2SR4.zip) ,[7942](https://dl.dropbox.com/u/10036721/Cisco-7942-SIP.zip "7942"), [7945](https://dl.dropbox.com/u/10036721/Cisco-7945-SIP.zip) , [7962](https://dl.dropbox.com/u/10036721/Cisco-7962-SIP.zip)) and extract it.
 
-Download and install/extract the [tftp server](http://tftpd32.jounin.net/download/tftpd32.400.zip) software.
+Download and install/extract the [tftp server](https://tftpd32.jounin.net/download/tftpd32.400.zip) software.
 
 Open the tftp server software and make the SIP firmware  extracted directory as the root directory of the tftp server.
 
@@ -42,7 +42,7 @@ C:\Users\shyju>tftp 192.168.20.124 get dialplan.xml
 Transfer successful: 258 bytes in 1 second(s), 258 bytes/s
 ```
 
-Open your dhcp server configuration and add  TFTP server IP address as the boot server in DHCP scope Options. Refer [this article](http://shyju.wordpress.com/2011/02/04/provision-polycom-with-freepbx/) to configure DHCP Options.
+Open your dhcp server configuration and add  TFTP server IP address as the boot server in DHCP scope Options. Refer [this article](https://shyju.wordpress.com/2011/02/04/provision-polycom-with-freepbx/) to configure DHCP Options.
 
 Rename the  with SEP<MAC-ADDRESS-OF-YOUR-PHONE>.cnf.xml. Then open that file and change the following lines to match with your IP PBX details.
 

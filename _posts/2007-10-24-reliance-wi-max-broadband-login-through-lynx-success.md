@@ -12,12 +12,12 @@ Linux CLI.
 The wi-max connection only allow login in through http.  
 So we first you need to create the login page(Find my worked example file)  
   
-File named [form.htm](http://docs.google.com/View?docid=dfxvcb6_8hb4r3j)  
+File named [form.htm](https://docs.google.com/View?docid=dfxvcb6_8hb4r3j)  
 copy this file to your linux box.  
   
 dont forget to change userid &password values and the permission of file(chmod )  
   
-Install [Lynx](http://lynx.browser.org/) in Linux box if it is already installed.  
+Install [Lynx](https://lynx.browser.org/) in Linux box if it is already installed.  
   
 connect your Broadband connetion to LAN port.  
 type /sbin/ifconfig  

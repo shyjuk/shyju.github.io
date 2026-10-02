@@ -97,7 +97,7 @@ Configure DHCP sever to send boot sevrver ip along with the DHCP lease. Here I a
 
 ![](/images/set_pre5.png)
 
-Download and extract the lastest polycom firmware to /tftpboot directory. Download the provisioning module from [here](http://www.epillars.com) and install it into FreePBX from Module Admin Download the sample csv file from [here](http://www.epillars.com). Add the required extension,fullname,password and macaddress of the phones. Upload the csv file from the Polycom Provsioning Menu of the FreePBX. It will create all polycom configuration files required to register phones. Connect the phones. The phones will be upgraded with the new firmware. Every phones will be provisioned with PBX wide directory(You will get all PBX users extension numbers in directory)
+Download and extract the lastest polycom firmware to /tftpboot directory. Download the provisioning module from [here](https://www.epillars.com) and install it into FreePBX from Module Admin Download the sample csv file from [here](https://www.epillars.com). Add the required extension,fullname,password and macaddress of the phones. Upload the csv file from the Polycom Provsioning Menu of the FreePBX. It will create all polycom configuration files required to register phones. Connect the phones. The phones will be upgraded with the new firmware. Every phones will be provisioned with PBX wide directory(You will get all PBX users extension numbers in directory)
 
 If the phone is not downlading the firmware check the the boot server IP address in the phone. The boot server IP address should be the IP address of the PBX.
 

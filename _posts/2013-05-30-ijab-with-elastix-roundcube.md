@@ -57,7 +57,7 @@ See the sample config.
 ```
 xmpp:{
 domain:"mymailchat.com",
-http_bind:"http://elx-dev/http-bind/",
+http_bind:"https://elx-dev/http-bind/",
 host:"elx-dev",
 port:5222,
 server_type:"openfire",
@@ -73,7 +73,7 @@ muc_servernode:"conference.mymailchat.com",
 vcard_search_servernode:"vjud.mymailchat.com"
 ```
 
-Download and install the round cube from [http://rahul.amaram.name/blog/2010/09/05/integrating-ijab-roundcube](http://rahul.amaram.name/blog/2010/09/05/integrating-ijab-roundcube) to round cube plugins folder and add ijab to main.inc.php plugins list.
+Download and install the round cube from [https://rahul.amaram.name/blog/2010/09/05/integrating-ijab-roundcube](https://rahul.amaram.name/blog/2010/09/05/integrating-ijab-roundcube) to round cube plugins folder and add ijab to main.inc.php plugins list.
 
 Find the downloads below if could not obtain them from other sites.
 

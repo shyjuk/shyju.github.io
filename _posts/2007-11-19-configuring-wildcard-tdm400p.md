@@ -38,7 +38,7 @@ Green Module is FXS – Foreign Exchange Station
 Red Module is FXO – Foreign Exchange Office  
 
   
-[![](/images/wildcard_tdm400p_image273605.png)](http://www.asteriskguru.com/tutorials/wildcard_tdm400p_image339.png)  
+[![](/images/wildcard_tdm400p_image273605.png)](https://www.asteriskguru.com/tutorials/wildcard_tdm400p_image339.png)  
 An FXS device initiates and sends signals to an FXO device. The telephone that receives the calls is the last FXO device (if you have several FXO devices) and when the signal is received from the FXS device the telephone has to ring.  
   
 Plug the cables  
@@ -53,7 +53,7 @@ By typing 'lspci' you will receive a list of all the PCI devices you have. Note 
 \- **Communication controller: Xilinx Corporation: Unknown device 0314 (rev 01)** for the TE410p / TE405p  
 \- **Communication controller: Tiger Jet Network Inc. Tiger3XX Modem/ISDN interface / Network controller: Tiger Jet Network Inc. Tiger3XX Modem/ISDN interface** for the TE110p or the TDM400p  
 \- **Network controller: Jens Scoenfeld** for the TE110p or the TDM400p  
-[![](/images/wildcard_tdm400p_image273606.png)](http://www.asteriskguru.com/tutorials/wildcard_tdm400p_image340.png)  
+[![](/images/wildcard_tdm400p_image273606.png)](https://www.asteriskguru.com/tutorials/wildcard_tdm400p_image340.png)  
 
   
 Zaptel installation  
@@ -139,9 +139,9 @@ I also have a user registered in **iax.conf**, but you can also place calls with
   
 Register extensions  
 And the last step is to register valid numbers in **extensions.conf**.  
-[![](/images/wildcard_tdm400p_image273607.png)](http://www.asteriskguru.com/tutorials/wildcard_tdm400p_image344.png)  
+[![](/images/wildcard_tdm400p_image273607.png)](https://www.asteriskguru.com/tutorials/wildcard_tdm400p_image344.png)  
   
-Here when you enter the standard extension an operator picks up, the variables concerning the caller is displayed in the CLI – the name of the caller, the number of the caller and the id of the caller, then some welcome message is played. After this you can leave a mail on the voicemail and then the operator hangs you up. You can register a voicemail in **/etc/asterisk/voicemail.conf** by writing the example below. Here you can learn more about [voicemail](http://www.asteriskguru.com/tutorials/asterisk_voicemail.html).  
+Here when you enter the standard extension an operator picks up, the variables concerning the caller is displayed in the CLI – the name of the caller, the number of the caller and the id of the caller, then some welcome message is played. After this you can leave a mail on the voicemail and then the operator hangs you up. You can register a voicemail in **/etc/asterisk/voicemail.conf** by writing the example below. Here you can learn more about [voicemail](https://www.asteriskguru.com/tutorials/asterisk_voicemail.html).  
 
   
 **\[vm-test\]**  
@@ -222,7 +222,7 @@ _This dials channel 1 which is controlled by FXS. As we said in the beginning th
 **Standard Configuration**  
 
   
-[![](/images/wildcard_tdm400p_image273664.jpg)](http://www.asteriskguru.com/tutorials/wildcard_tdm400p_image426.jpg)  
+[![](/images/wildcard_tdm400p_image273664.jpg)](https://www.asteriskguru.com/tutorials/wildcard_tdm400p_image426.jpg)  
 
   
 
@@ -230,4 +230,4 @@ _This dials channel 1 which is controlled by FXS. As we said in the beginning th
 
   
 
-\* -_Official Information from Digium for [Wildcard TDM400P Family](http://www.digium.com/index.php?menu=product_detail&category=hardware&product=TDM400P)_
+\* -_Official Information from Digium for [Wildcard TDM400P Family](https://www.digium.com/index.php?menu=product_detail&category=hardware&product=TDM400P)_

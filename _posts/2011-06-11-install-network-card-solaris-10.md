@@ -29,7 +29,7 @@ My NIC  is  " Intel Corporation PRO/100 VE Network Connection" installed in 
 
 2.Download the appropriate driver file(tar file) from the other system and copy it to the solaris machine.
 
-If you are using USB, see the previous mount article on [how to  mount  USB on solaris.](http://shyju.wordpress.com/2011/06/page/2/)
+If you are using USB, see the previous mount article on [how to  mount  USB on solaris.](https://shyju.wordpress.com/2011/06/page/2/)
 
 3.unzip the file if it is .gz(gunzip -d) and untar it (tar -xvf) .
 

@@ -52,7 +52,7 @@ make clean
   --without-bench
 ```
 
-18-Jul-2005: If you are installing MySQL 4.0.x on Fedora Core 4, there is a problem with LinuxThreads that prevents MySQL from compiling properly. Installing on Fedora Core 3 works fine though. Thanks to Kevin Spencer for bringing this to my attention. There is a workaround listed at http://bugs.mysql.com/bug.php?id=9497. Thanks to Collin Campbell for that link. Another solution can be found at http://bugs.mysql.com/bug.php?id=2173. Thanks to Kaloyan Raev for that one.
+18-Jul-2005: If you are installing MySQL 4.0.x on Fedora Core 4, there is a problem with LinuxThreads that prevents MySQL from compiling properly. Installing on Fedora Core 3 works fine though. Thanks to Kevin Spencer for bringing this to my attention. There is a workaround listed at https://bugs.mysql.com/bug.php?id=9497. Thanks to Collin Campbell for that link. Another solution can be found at https://bugs.mysql.com/bug.php?id=2173. Thanks to Kaloyan Raev for that one.
 
 Now comes the long part, where the source code is actually compiled and then installed. Plan to get some coffee or take a break while this step runs. It could be 10-15 minutes or more, depending on your system's free memory, load average, etc.
 
@@ -107,7 +107,7 @@ cd /usr/local/mysql/bin
 for file in *; do ln -s /usr/local/mysql/bin/$file /usr/bin/$file; done
 ```
 
-[Link](http://www.lamphowto.com/)
+[Link](https://www.lamphowto.com/)
 
 **Remote Access Database** GRANT ALL ON asterisk.\* TO asterisk@'192.168.20.117' IDENTIFIED BY 'password';
 

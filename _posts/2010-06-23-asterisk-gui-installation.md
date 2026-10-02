@@ -9,9 +9,9 @@ categories:
 
 ![Asterisk Login Page](/images/ast.png) **Requirements**
 
-Before you can install Asterisk GUI you need to install Asterisk and all the dependencies. Download and install them from [Asterisk website](http://downloads.asterisk.org/). **Getting Asterisk GUI**
+Before you can install Asterisk GUI you need to install Asterisk and all the dependencies. Download and install them from [Asterisk website](https://downloads.asterisk.org/). **Getting Asterisk GUI**
 
-Open a terminal and type: `cd /usr/src/ svn checkout http://svn.digium.com/svn/asterisk-gui/branches/2.0/ gui`
+Open a terminal and type: `cd /usr/src/ svn checkout https://svn.digium.com/svn/asterisk-gui/branches/2.0/ gui`
 
 The Asterisk GUI source files will be downloaded to /usr/src/gui folder
 
@@ -60,7 +60,7 @@ make checkconfig
 
 You should get the some thing like below..
 
-\--- Checking Asterisk configuration to see if it will support the GUI --- \* Checking for http.conf: OK \* Checking for manager.conf: OK \* Checking if HTTP is enabled: OK \* Checking if HTTP static support is enabled: OK \* Checking if manager is enabled: OK \* Checking if manager over HTTP is enabled: OK --- Everything looks good --- **\* GUI should be available at http://aster:80/asterisk/static/config/index.html**
+\--- Checking Asterisk configuration to see if it will support the GUI --- \* Checking for http.conf: OK \* Checking for manager.conf: OK \* Checking if HTTP is enabled: OK \* Checking if HTTP static support is enabled: OK \* Checking if manager is enabled: OK \* Checking if manager over HTTP is enabled: OK --- Everything looks good --- **\* GUI should be available at https://aster:80/asterisk/static/config/index.html**
 
 \* Note: If you have bindaddr=127.0.0.1 in /etc/asterisk/http.conf you will only be able to visit it from the local machine.
 

@@ -12,5 +12,5 @@ tags:
 ---
 
 1. Upload the Virtualbox vm's vmdk file to vmware datastore.
-2. ssh to vmware vSphere/ ESXi and convert the uploaded disk. The snapshots will not work if the file is not converted. command : _vmkfstools -i <source>.vmdk <target>.vmdk -d thin_
+2. ssh to vmware vSphere/ ESXi and convert the uploaded disk. The snapshots will not work if the file is not converted. command : `vmkfstools -i <source>.vmdk <target>.vmdk -d thin`
 3. Create a new VM in with vSphere client and attach the converted disk to it

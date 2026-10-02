@@ -21,7 +21,7 @@ tags:
   - "voip-dubai"
 ---
 
-See the [previous](http://shyju.wordpress.com/2011/07/29/call-forwardingfollow-me-without-delay-ringing-sound-asterisk-1-4/) call forward setup.  Use the same setup and append the below lines to /etc/asterisk/extensions\_custom.conf , change the numbers to where you want to enable call forwarding(ie. the your mobile number from where you pick up the forwarded call)  and reload asterisk. Dial your office number from your mobile when you reach IVR dial 9 which will enable call forwarding . Now all calls to your office are forwarded to your mobile.
+See the [previous](https://shyju.wordpress.com/2011/07/29/call-forwardingfollow-me-without-delay-ringing-sound-asterisk-1-4/) call forward setup.  Use the same setup and append the below lines to /etc/asterisk/extensions\_custom.conf , change the numbers to where you want to enable call forwarding(ie. the your mobile number from where you pick up the forwarded call)  and reload asterisk. Dial your office number from your mobile when you reach IVR dial 9 which will enable call forwarding . Now all calls to your office are forwarded to your mobile.
 
 ```
 [ivr-5-custom]

@@ -5,4 +5,4 @@ categories:
   - "technical"
 ---
 
-[System.Web.Mail and smtp.gmail.com](http://blogs.wdevs.com/qc/archive/2005/01/14/1951.aspx)
+[System.Web.Mail and smtp.gmail.com](https://blogs.wdevs.com/qc/archive/2005/01/14/1951.aspx)

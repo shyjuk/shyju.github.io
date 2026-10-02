@@ -5,4 +5,4 @@ categories:
   - "technical"
 ---
 
-[http://voipusersconference.org/](http://voipusersconference.org/)
+[https://voipusersconference.org/](https://voipusersconference.org/)

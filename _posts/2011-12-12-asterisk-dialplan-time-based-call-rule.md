@@ -27,4 +27,4 @@ exten => _XXXX.,n,Playback(prepaid-auth-fail)
 
 This rule will deny users from making calls(if the number of digits higher than 4 digiits) from 6:45 PM to 8:30 AM Sunday through Thursday and whole Friday.
 
-For more info on command GotoIfTime() visit [VoIP Info](http://www.voip-info.org/wiki/view/Asterisk+cmd+GotoIfTime).
+For more info on command GotoIfTime() visit [VoIP Info](https://www.voip-info.org/wiki/view/Asterisk+cmd+GotoIfTime).
